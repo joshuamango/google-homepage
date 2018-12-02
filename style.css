@@ -3,12 +3,12 @@
 }
 
 body {
-	margin: 10px;
+	
 }
 
 a {
 	text-decoration: none;
-	color: gray;
+	color: #8c8c8c;
 }
 
 a:hover {
@@ -27,13 +27,36 @@ a:visited {
 	float: right;
 }
 
+ul {
+	padding-inline-start: 0px;
+}
+
+.button {
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	background-color: #f2f2f2; 
+	color: black;
+}
+
 .link li {
 	display: inline;
-	font-size: 12px;
+	font-size: 13px;
 	margin: 10px;
+	color: #8c8c8c;
 }
 
 #search {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	box-shadow: 2px 2px 2px grey;
+}
+
+#button-box {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -44,9 +67,23 @@ a:visited {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 150px;
 	width: 50%;
 }
 
-#links-1 {
-	width: all;
+
+#button-box-parent {
+	text-align: center;
+}
+
+#button-box {
+	margin: 20px;
+	display: inline-block;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
