@@ -33,27 +33,41 @@ ul {
 
 .button {
 	border: none;
-	padding: 15px 32px;
+	padding: 12px 24px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 14px;
 	background-color: #f2f2f2; 
+	color: #4d4d4d;
+	margin: 10px;
+
+}
+
+.button:hover {
 	color: black;
+}
+
+#search:hover {
+	box-shadow: 2px 2px 7px grey;
+
 }
 
 .link li {
 	display: inline;
 	font-size: 13px;
 	margin: 10px;
-	color: #8c8c8c;
+	color: #4d4d4d;
 }
 
 #search {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 20px;
 	width: 100%;
 	box-shadow: 2px 2px 2px grey;
+	border-radius: 3px;
+	padding: 10px;
 }
 
 #button-box {
