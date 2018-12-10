@@ -7,5 +7,3 @@ I did this project to test my HTML/CSS skills. Google has a very simple website 
 
 ### Here's a screenshot of the finished product
 ![Image](sample-screenshot.PNG)
-
-Pretty convincing...
